@@ -32,8 +32,7 @@
 ## Project Overview
 ![CDK5 inhibitor 후보물질 발굴 및 설계](https://user-images.githubusercontent.com/96029849/195245083-bd410b0b-7474-485f-a0ea-a023da1ef817.png)
 
-
-![image](https://user-images.githubusercontent.com/96029849/195098507-65a18bb4-9f30-43d8-9817-e3ef4c6cbf57.png)
+<img src="https://user-images.githubusercontent.com/96029849/195098507-65a18bb4-9f30-43d8-9817-e3ef4c6cbf57.png" width="800" height="800"/>
 ChEMBL database
 
 
@@ -67,7 +66,7 @@ ligand_based_VS_2.py :
  
  reference: https://github.com/HiddenBeginner/samsung-ai-challenge
 
-![image](https://user-images.githubusercontent.com/96029849/195098726-a4bd9207-f132-42b1-83f8-7b4c029236e6.png)
+<img src="https://user-images.githubusercontent.com/96029849/195098726-a4bd9207-f132-42b1-83f8-7b4c029236e6.png" width="800" height="800"/>
 ZINC15 database
 
 #### 3.ZINC Database에서 Drug likeness, Synthetic Accessibility를 고려하여 LogP, MW와 perchasability를 filter로 화합물 data를 수집하였고 그 중 100,000종을 이번 project에 사용하였다.
@@ -77,7 +76,8 @@ ZINC15 database
 
 #### 5.Structure-based virtual screening
 
-![image](https://user-images.githubusercontent.com/96029849/195099325-3bf18826-ae98-4670-9198-eaede03819d0.png), ![image](https://user-images.githubusercontent.com/96029849/195099381-92df06c4-aa80-486d-975e-915fa0fb8160.png)
+<img src="https://user-images.githubusercontent.com/96029849/195099325-3bf18826-ae98-4670-9198-eaede03819d0.png" width="500" height="600"/>, 
+<img src="https://user-images.githubusercontent.com/96029849/195099381-92df06c4-aa80-486d-975e-915fa0fb8160.png" width="500" height="600"/>
 
 PDB에서 CDK5단백질의 구조를 PDB 파일로 다운로드 받고 UCSF Chimera 프로그램으로 이미 알려진 리간드와 결합 region을 확인하였다.
 1차로 선별된 100개의 화합물에 대해 Zinc15 데이터베이스에서 sdf파일을 다운받은 뒤 pdb 파일로 변환, 최종적으로 pbdqt파일로 변환한 뒤
