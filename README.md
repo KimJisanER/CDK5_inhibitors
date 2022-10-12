@@ -1,7 +1,7 @@
 # Project : CDK5 inhibitor 후보물질 발굴 및 설계
 
-### 1. ligand_based_VS.py : torch_geometric.nn.data.Data 자료형으로 바꿔주는 전처리 과정을 수행
-### 2. ligand_based_VS_2.py : 
+#### 1. ligand_based_VS.py : torch_geometric.nn.data.Data 자료형으로 바꿔주는 전처리 과정을 수행
+#### 2. ligand_based_VS_2.py : 
      Generating node-level feature / edge type
 
      - Using only atom type (13 dim)
@@ -25,8 +25,8 @@
      - Taking the simple average of 10 models
      reference: https://github.com/HiddenBeginner/samsung-ai-challenge
      
- ### 3. ligand_crawling.py : zinc15에서 csv에 포함된 compounds의 sdf파일을 다운로드 받아줌
- ### 4. molecule_design.ipynb : 생명정보학회 현장중심 AI신약개발교육 22.9.30. 이경열님 강의자료 참고
+ #### 3. ligand_crawling.py : zinc15에서 csv에 포함된 compounds의 sdf파일을 다운로드 받아줌
+ #### 4. molecule_design.ipynb : 생명정보학회 현장중심 AI신약개발교육 22.9.30. 이경열님 강의자료 참고
  
 
 ## Project Overview
