@@ -42,8 +42,8 @@ ChEMBL database
 
 #### 2.RGCN
 
-ligand_based_VS.py : torch_geometric.nn.data.Data 자료형으로 바꿔주는 전처리 과정을 수행
-ligand_based_VS_2.py : 
+##### ligand_based_VS.py : torch_geometric.nn.data.Data 자료형으로 바꿔주는 전처리 과정을 수행
+##### ligand_based_VS_2.py : 
      Generating node-level feature / edge type
 
      - Using only atom type (13 dim)
