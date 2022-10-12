@@ -7,6 +7,10 @@
 ![image](https://user-images.githubusercontent.com/96029849/195098507-65a18bb4-9f30-43d8-9817-e3ef4c6cbf57.png)
 ChEMBL database
 
+
+
+
+
 ### 1.ChEMBL을 통해 CDK5 관련 화합물 2319종의 data를 수집한 뒤, Standard Type이 IC50이고 pChEMBL Value data가 있는 화합물 1393종을 Binding affinity 예측 모델의 훈련데이터로 사용했다.
 
 ### 2.RGCN
@@ -23,7 +27,9 @@ ZINC15 database
 
 ![image](https://user-images.githubusercontent.com/96029849/195099325-3bf18826-ae98-4670-9198-eaede03819d0.png), ![image](https://user-images.githubusercontent.com/96029849/195099381-92df06c4-aa80-486d-975e-915fa0fb8160.png)
 
-PDB에서 CDK5단백질의 구조를 PDB 파일로 다운로드 받고 UCSF Chimera 프로그램으로 이미 알려진 리간드와 결합 region을 확인하였다. 그 후 linux환경에서 AutoDock Vina로 1차 선별된 100종의 화합물을 대상으로 Docking score를 계산하였고 Docking Score가 높은 순으로 20종을 선별하였다.
+PDB에서 CDK5단백질의 구조를 PDB 파일로 다운로드 받고 UCSF Chimera 프로그램으로 이미 알려진 리간드와 결합 region을 확인하였다.
+1차로 선별된 100개의 화합물에 대해 Zinc15 데이터베이스에서 sdf파일을 다운받은 뒤 pdb 파일로 변환, 최종적으로 pbdqt파일로 변환한 뒤
+linux환경에서 AutoDock Vina로 100종의 화합물을 대상으로 Docking score를 계산하였고 Docking Score가 높은 순으로 20종을 선별하였다.
 
 선별된 20종을 대상으로 QED score, Novelty, 구조를 고려해서 10종을 최종 선정하였다.
 
