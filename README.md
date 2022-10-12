@@ -30,7 +30,6 @@
  
 
 ## Project Overview
-<img src="https://user-images.githubusercontent.com/96029849/195245083-bd410b0b-7474-485f-a0ea-a023da1ef817.png" width="400" height="200"/>
 ![CDK5 inhibitor 후보물질 발굴 및 설계](https://user-images.githubusercontent.com/96029849/195245083-bd410b0b-7474-485f-a0ea-a023da1ef817.png)
 
 
