@@ -67,10 +67,10 @@ ChEMBL database
      - Taking the simple average of 10 models
  reference: https://github.com/HiddenBeginner/samsung-ai-challenge
 
+#### 3. Compounds library 구축
+
 <img src="https://user-images.githubusercontent.com/96029849/195098726-a4bd9207-f132-42b1-83f8-7b4c029236e6.png" width="600" height="400"/>
 ZINC15 database
-
-#### 3. Compound library 구축
 
      ZINC Database에서 Drug likeness, Synthetic Accessibility를 고려하여 LogP, MW와 perchasability를 filter로 화합물 data를 수집하였고 그 중 100,000종을 이번 project에 사용하였다.
 
@@ -85,9 +85,9 @@ ZINC15 database
 
      PDB에서 CDK5단백질의 구조를 PDB 파일로 다운로드 받고 UCSF Chimera 프로그램으로 이미 알려진 리간드와 결합 region을 확인하였다.
      1차로 선별된 100개의 화합물에 대해 Zinc15 데이터베이스에서 sdf파일을 다운받은 뒤 pdb 파일로 변환, 최종적으로 pbdqt파일로 변환한 뒤
-     linux환경에서 AutoDock Vina로 100종의 화합물을 대상으로 Docking score를 계산하였고 Docking Score가 높은 순으로 20종을 선별하였다.
-
-     선별된 20종을 대상으로 QED score, Novelty, 구조를 고려해서 10종을 최종 선정하였다.
+     linux환경에서 AutoDock Vina로 100종의 화합물을 대상으로 Docking score를 계산하였고(candidate_with_docking_score_100.csv)
+     Docking Score가 높은 순으로 20종을 선별하였다.
+     선별된 20종을 대상으로 QED score, Novelty, 구조를 고려해서 10종을 최종 선정하였다.(candidate_final_10.csv)
 
 #### 6. De Novo Design
 
